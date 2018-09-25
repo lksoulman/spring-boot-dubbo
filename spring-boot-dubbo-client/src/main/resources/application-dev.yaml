@@ -1,0 +1,12 @@
+server:
+  port: 8081
+spring:
+  application:
+    name: spring-boot-dubbo-client
+
+dubbo:
+  application:
+    name: spring-boot-dubbo-client
+  registry:
+    address: zookeeper://127.0.0.1:2181 #zookeeper://10.1.51.248:2181
+  scan: com.lksoulman.dubbo
